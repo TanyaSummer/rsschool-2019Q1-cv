@@ -1,0 +1,66 @@
+*{
+margin: 0;	
+}
+	
+html, body {
+	font-family: 'Lato', helvetica, arial, sans-serif;
+	height: 100%;	
+}
+
+.head_info, section {
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	justify-content: space-around;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+.head_info_image img {
+    height: auto;
+    width: auto;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.head_info_imag, .name, .contact, section {
+	padding: 20px;
+}
+
+a:link {
+    color:rgb(11, 167, 139);
+}/*это правило определяет цвет непросмотренных гирессылок*/
+
+.contact img {
+	height: auto;
+    width: auto;
+    max-width: 30px;
+    max-height: 30px;
+}
+
+section{
+	
+	max-width: 984px;
+	
+}
+	
+.contact ul { 
+	list-style: none; 
+}
+
+h2{
+	color: rgb(70, 67, 67);
+	
+}
+
+.section_title {
+	float: left;
+    width: 25%;
+}
+
+.section_content {
+	float: right;
+	width: 72.5%;
+	text-align: justify;
+}
+
