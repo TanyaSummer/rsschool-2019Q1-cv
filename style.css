@@ -25,6 +25,8 @@ header{
     color: #ead7d7;
 }
 
+/*СЕКЦИЯ С ФОТО*/
+
 .head_info, section {
     display: flex;
     justify-content: center;
@@ -42,8 +44,8 @@ header{
 	margin: 10px;
 }
 
-.country {
-	margin-top: 10px;
+.contact_about {
+	margin-top: 0.4em;
 }
 
 .head_info_imag, .contact, section {
@@ -51,7 +53,7 @@ header{
 }
 
 a:link {
-    color:rgb(253, 112, 17);
+    color:rgb(107, 167, 191);
 }/*это правило определяет цвет непросмотренных гирессылок*/
 
 .contact img {
@@ -59,6 +61,25 @@ a:link {
     width: auto;
     max-width: 30px;
     max-height: 30px;
+}
+
+.messenger {
+	margin-bottom: -5px;
+}
+
+.social {
+	margin-left: -5px;
+}
+
+.contact li {
+	font-weight: bold;
+	font-size: 0.9em;
+	color: #737171;
+	display: flex;
+}
+
+.contact span {
+	font-weight: normal;
 }
 
 section{
